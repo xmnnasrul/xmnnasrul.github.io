@@ -1021,6 +1021,10 @@ section {
     color: white;
 }
 
+#footer .copyright i {
+    color: red;
+}
+
 #footer p {
     color: white;
 }
@@ -1041,6 +1045,9 @@ section {
     #footer .footer-bottom {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #footer .copyright i {
+        color: red;
     }
     #footer .copyright,
     #footer .credits {
