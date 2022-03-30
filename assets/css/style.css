@@ -314,11 +314,31 @@ h6 {
     font-size: 24px;
 }
 
+#hero .akun ul li {
+    list-style: none;
+}
+
+#hero .akun ul li i {
+    margin-right: 5px;
+    font-size: 25px;
+    color: #a4b0c4;
+}
+
+#hero .akun a {
+    color: white;
+}
+
 #hero .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
+    #hero h2 {
+        display: none;
+    }
+    #hero .akun {
+        display: none;
+    }
     #hero {
         height: 100vh;
         text-align: center;
@@ -336,6 +356,9 @@ h6 {
 }
 
 @media (max-width: 768px) {
+    #hero .akun {
+        display: none;
+    }
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
@@ -351,6 +374,9 @@ h6 {
 }
 
 @media (max-width: 575px) {
+    #hero .akun {
+        display: none;
+    }
     #hero .hero-img img {
         width: 80%;
     }
